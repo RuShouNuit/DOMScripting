@@ -1,0 +1,30 @@
+body{
+    margin: 1em 10%;
+    font-family: "Helvetica","Arial",serif;
+    color: #333;
+    background-color: #ccc;
+}
+h1{
+    color: #333;
+    background-color: transparent;
+}
+
+#imageGallery{
+    padding: 0;
+    list-style: none;
+}
+#imageGallery li{
+    float: left;
+    padding: 1em;
+}
+#imageGallery li a{
+    font-weight: bold;
+    color: #c6o;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    clear: both;
+}
