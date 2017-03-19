@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+header, section, article, nav {
+	display: block;
+}
+body {
+	margin: 1em 10%;
+	background: url("../images/background.gif") top left repeat-x fixed;
+	max-width: 80em;
+}
+
+header {
+	background: url("../images/guitarist.gif") bottom right no-repeat;
+	border: .1em solid;
+	border-bottom-width: 0;
+}
+#about header { background-image: url("../images/lineup.gif"); }
+#photo header { background-image: url("../images/basshead.gif"); }
+#live header { background-image: url("../images/bassist.gif"); }
+#contact header { background-image: url("../images/drummer.gif"); }
+
+/* 头部导航条 */
+header nav {
+	background: url("../images/navbar.gif") bottom left repeat-x;
+	border: .1em solid;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	padding-left: 10%;	
+}
+header ul {
+	width: 100%;
+	overflow: hidden;
+	border-left: .1em solid;
+}
+header li {
+	display: inline;
+}
+header a {
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+
+/* 主体内容区 */
+article {
+	border-top: .1em solid;
+	border-top-width: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+}
+article img {
+	border: .1em solid;
+	outline: .1em solid;
+}
+
+/* Home页幻灯 */
+.m-slide {
+	position: relative;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+}
+.m-slide #frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.m-slide #preview {
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+
+/* Photo页图片库 */
+#gallery li {
+	display: inline;
+}
+
+/* Live页表格和列表 */
+td {
+	padding: .5em 3em;
+}
+dl {
+	overflow: hidden;
+}
+dt,dd {
+	float: left;
+}
+
+/* Contact页表单 */
+fieldset {
+	border: 0;
+}
+fieldset label {
+	display: block;
+}

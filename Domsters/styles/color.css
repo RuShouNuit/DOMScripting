@@ -1,0 +1,91 @@
+body {
+  color: #fb5;
+  background-color: #334;
+}
+a:link {
+  color: #445;
+  background-color: #eb6;
+}
+a:visited {
+  color: #345;
+  background-color: #eb6;
+}
+a:hover {
+  color: #667;
+  background-color: #fb5;
+}
+a:active {
+  color: #778;
+  background-color: #ec8;
+}
+
+/* 头部导航条 */
+header {
+  color: #ec8;
+  background-color: #334;
+  border-color: #667;
+}
+header nav {
+  color: #455;
+  background-color: #789;
+  border-color: #667;
+}
+header ul {
+  border-color: #99a;
+}
+header a:link,header a:visited {
+  color: #eef;
+  background-color: transparent;
+  border-color: #99a;
+}
+header a:hover {
+  color: #445;
+  background-color: #eb6;
+}
+header a:active {
+  color: #667;
+  background-color: #ec8;
+}
+header a.here:link, header a.here:visited, header a.here:hover, header a.here:active {
+  color: #eef;
+  background-color: #799;
+}
+
+/* 主体内容区 */
+article {
+  color: #223;
+  background-color: #edc;
+  border-color: #667;
+}
+article img {
+  border-color: #ba9;
+  outline-color: #dcb;
+}
+
+/* Photo页图片库 */
+#imagegallery a {
+  background-color: transparent;
+}
+
+/* Live页表格和列表 */
+th {
+  color: #edc;
+  background-color: #455;
+}
+tr td {
+  color: #223;
+  background-color: #eb6;
+}
+tr.z-odd td {
+  color: #223;
+  background-color: #ec8;
+}
+tr.z-highlight td {
+  color: #223;
+  background-color: #cba;
+}
+
+/* Contact页表单 */
+input.z-holder {
+  color: #eee;
+}

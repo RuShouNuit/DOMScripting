@@ -1,0 +1,55 @@
+body {
+  font: 76% "Helvetica","Arial",sans-serif;
+}
+body * {
+  font-size: 1em;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* 头部导航条 */
+header nav {
+  font-family: "Lucida Grande","Helvetica","Arial",sans-serif;
+}
+header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* 主体内容区 */
+article {
+  line-height: 1.8em;
+}
+article p {
+  margin: 1em 0;
+}
+
+h1 {
+  font: 2.4em normal "Georgia","Times New Roman",sans-serif;
+}
+h2 {
+  font: 1.8em normal "Georgia","Times New Roman",sans-serif;
+  margin-top: 1em;
+}
+h3 {
+  font: 1.4em normal "Georgia","Times New Roman",sans-serif;
+  margin-top: 1em;
+}
+
+/* Photo页图片库 */
+#imagegallery li {
+  list-style-type: none;
+}
+textarea {
+  font-family: "Helvetica","Arial",sans-serif;
+}
+
+/* Live页列表 */
+dt {
+  margin-right: 1em;
+}
+dd {
+  margin-right: 3em;
+}
